@@ -1,0 +1,25 @@
+{
+  "riskThresholds": {
+    "attendancePercentBelow": 75,
+    "cgpaBelow": 6.0,
+    "lmsLoginsBelow": 50,
+    "lateAssignmentsAbove": 3,
+    "highRiskFactorCount": 2
+  },
+  "successScoreWeights": {
+    "academic": 0.35,
+    "attendance": 0.25,
+    "lms": 0.15,
+    "placement": 0.25
+  },
+  "placementComponentWeights": {
+    "aptitude": 0.35,
+    "coding": 0.45,
+    "mockInterview": 0.20
+  },
+  "segmentThresholds": {
+    "highCgpa": 7.5,
+    "highPlacementScore": 70,
+    "lowAcademicScore": 70
+  }
+}
