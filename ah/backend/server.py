@@ -1,4 +1,4 @@
-import os
+﻿import os
 import re
 import csv
 import io
@@ -33,7 +33,7 @@ if os.path.isfile(env_file_path):
         print(f"[Notice] Could not load .env file: {e}")
 
 DB_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "campus_analytics.db")
-RISK_CONFIG_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "risk_config.json")
+RISK_CONFIG_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "risk_config.json")
 with open(RISK_CONFIG_PATH, "r", encoding="utf-8") as risk_config_file:
     RISK_CONFIG = json.load(risk_config_file)
 
